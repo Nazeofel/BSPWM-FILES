@@ -1,2 +1,2 @@
 # BSPWM-FILES
-Config for BSPWM.
+  **- SUPPORT JAVA APPLICATION !**
