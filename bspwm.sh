@@ -4,7 +4,7 @@ git clone https://aur.archlinux.org/paru-bin.git
 cd paru-bin && makepkg -si
 yay -S bspwm sxhkd feh polybar xorg-xsetroot xorg-xbacklight light picom-jonaburg-git dunst rofi flameshot xfce4-power-manager ksuperkey adobe-source-code-pro-fonts nerd-fonts-jetbrains-mono ttf-iosevka-nerd polkit-gnome i3lock-color fortune-mod network-manager-applet zsh zsh-autosuggestions zsh-syntax-highlighting oh-my-zsh-git catppuccin-gtk-theme papirus-icon-theme --needed --noconfirm
 git clone https://github.com/nazeofel/BSPWM-FILES.git --depth 1
-cd bspwm-dotfiles
+cd BSPWM-FILES
 cp -R .config/* ~/.config/
 chmod -R +x ~/.config/bspwm
 cp .zshrc ~
